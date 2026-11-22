@@ -23,4 +23,4 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }}
       - name: Restore dependencies
         shell: bash
-        run: dotnet restore "$PROJECT_PATH"
+        run: dotnet restore "warp-lab4.csproj"
